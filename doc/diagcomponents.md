@@ -12,6 +12,9 @@ Mètodes :
 - close_db()  : Tanca la connexió a BBDD
 ...
 
+
+## Diagrama d'arrencada de l'aplicació 
+
 ```mermaid
 
 classDiagram
@@ -52,6 +55,7 @@ classDiagram
     class Post {
         +INTEGER id PK
         +INTEGER author_id FK
+        +TIMESTAMP created 
         +TEXT title
         +TEXT body
     }
