@@ -62,7 +62,7 @@ classDiagram
 
     auth --> db
     blog --> db
-    Post --> User : "1"
+    Post --> User :
     blog ..> Post : "utilitza / modifica"
 
     ``` 
