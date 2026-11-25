@@ -43,3 +43,4 @@ src = ["src"]
 force-single-line = true
 order-by-type = false
 known-first-party = ["flaskr"]
+

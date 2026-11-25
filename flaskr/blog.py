@@ -94,6 +94,7 @@ def update(id):
     if request.method == "POST":
         title = request.form["title"]
         body = request.form["body"]
+        category = request.form["category"]
         error = None
 
         if not title:
